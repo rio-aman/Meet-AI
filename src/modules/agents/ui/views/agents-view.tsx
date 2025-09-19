@@ -5,7 +5,7 @@ import { useTRPC } from "@/trpc/client";
 import { LoadingState } from "@/components/loading-state";
 import { EmptyState } from "@/components/empty-state";
 import { ErrorState } from "@/components/error-state";
-import { DataTable } from "../components/datatable/data-table";
+import { DataTable } from "@/components/datatable/data-table"; 
 import { columns } from "../components/datatable/column";
 import { useAgentsFilters } from "../../hooks/use-agents-filters";
 import { DataPagination } from "../components/datatable/data-pagination";
